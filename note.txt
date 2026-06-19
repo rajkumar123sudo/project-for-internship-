@@ -1,0 +1,29 @@
+python
+pandas
+numpy
+matplotlib
+seaborne
+skit-learn
+
+netflix dataset.csv
+
+i handling missing values by filling categorical colunms and droping critical null rows
+
+
+
+q1 - most content type/
+ANs:- df['type].value_counts()
+
+q2 -top countries producing content
+ANS:-df['country].value_counts().mean()
+
+Q3-most common genres
+ANS:- df['listed_in].value_counts().head(10)
+
+Q4- year-wise content trend
+ANS:- df['release_year].value_counts().sort_index()
+
+Q5:- top ratings
+ANS:-df['ratings].value_counts()
+
+
